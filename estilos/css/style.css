@@ -1,0 +1,147 @@
+@import 'https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto';
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+header div.logo h1 {
+  font-family: "Montserrat", sans-serif;
+}
+header div.login {
+  display: flex;
+  align-items: center;
+}
+header div.login a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: #222;
+}
+header div.login a:hover {
+  background-color: #e6e6e6;
+}
+header div.login a h4 {
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 8px;
+}
+header div.login p {
+  margin: 0 8px;
+}
+
+section {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section div.img {
+  width: 49%;
+}
+section div.img img {
+  width: 100%;
+  height: auto;
+}
+section div.text {
+  width: 49%;
+}
+footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 10px 30px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+footer div.logo h1 {
+  font-family: "Montserrat", sans-serif;
+}
+footer div.foot-inx {
+  display: flex;
+  align-items: center;
+}
+footer div.foot-inx a {
+  border-radius: 5px;
+  text-decoration: none;
+  color: #222;
+}
+footer div.foot-inx a:hover {
+  background-color: #e6e6e6;
+}
+footer div.foot-inx a h4 {
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 8px;
+}
+footer div.foot-inx p {
+  margin: 0 8px;
+}
+
+nav {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+}
+nav h2 {
+  font-family: "Roboto", sans-serif;
+}
+nav a {
+  background-color: #e6e6e6;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: #222;
+  padding: 30px;
+  text-align: right;
+  font-size: 18px;
+}
+nav a:hover {
+  background-color: #cccccc;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 0.5fr 2fr 2fr 0.5fr;
+  grid-gap: 8px;
+}
+main header {
+  grid-column: 1/4;
+}
+main nav {
+  grid-column-start: 1;
+  grid-row: 2;
+}
+main section.container-1 {
+  grid-column: 2;
+  grid-row: 2;
+}
+main section.contaner-2 {
+  grid-column: 3;
+  grid-row: 2;
+}
+main section.container-3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+main section.container-4 {
+  grid-column: 3;
+  grid-row: 3;
+}
+main footer {
+  grid-column: 1/4;
+  grid-row: 4;
+}
+
+/*# sourceMappingURL=style.css.map */
