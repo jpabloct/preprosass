@@ -120,7 +120,7 @@ main header {
   grid-column: 1/4;
 }
 main nav {
-  grid-column-start: 1;
+  grid-column: 1;
   grid-row: 2;
 }
 main section.container-1 {
